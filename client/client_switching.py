@@ -80,13 +80,15 @@ def main():
         time.sleep(1)
         timestamp('**********', '**********')
 
-    print()
-    print()
-    print()
+    # print()
+    # print()
+    # print()
     stable_latency_list = latency_list[10:]
-    print (stable_latency_list)
-    print ('Latency: %f ms (stdev: %f)' % (statistics.mean(stable_latency_list), 
-                                           statistics.stdev(stable_latency_list)))
+    # print (stable_latency_list)
+    # print ('Latency: %f ms (stdev: %f)' % (statistics.mean(stable_latency_list), 
+    #                                        statistics.stdev(stable_latency_list)))
+
+    print ('OutputLatency', statistics.mean(stable_latency_list), statistics.stdev(stable_latency_list), len(stable_latency_list), sep=', ')
 
 if __name__ == '__main__':
     main()
