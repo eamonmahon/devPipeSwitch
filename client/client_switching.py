@@ -88,7 +88,7 @@ def main():
     # print ('Latency: %f ms (stdev: %f)' % (statistics.mean(stable_latency_list), 
     #                                        statistics.stdev(stable_latency_list)))
 
-    print ('OutputLatency', statistics.mean(stable_latency_list), statistics.stdev(stable_latency_list), len(stable_latency_list), sep=', ')
+    print ('OpenSourceOutputFlag', statistics.mean(stable_latency_list), statistics.stdev(stable_latency_list), len(stable_latency_list), sep=', ')
 
 if __name__ == '__main__':
     main()
