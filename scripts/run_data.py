@@ -8,7 +8,10 @@ def main():
     with open(os.devnull, 'w') as fnull:
         p_server = subprocess.Popen(['python','PipeSwitch/ready_model/ready_model.py','resnet152'], stdout=fnull, stderr=fnull)
         time.sleep(30)
-        p_client = subprocess.Popen(['python','PipeSwitch/client/client_inference.py', 'resnet152', str(batch_size)], stderr=fnull)
+
+        scheduling_cycle = 1
+        p_client = subprocess.Popen(['python','PipeSwitch/client/throughput_ready.py', 'resnet152', str(batch_size), scheduling_cycle])
+
         p_client.wait()
         p_server.kill()
 
