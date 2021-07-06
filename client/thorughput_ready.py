@@ -1,10 +1,14 @@
+"""
+only consider resnet152
+"""
+import json
 import sys
 import time
 import struct
 import statistics
 
 from task.helper import get_data
-from util.util import TcpClient, timestamp
+from core.util import TcpClient, timestamp
 
 def send_request(client, task_name, data):
     timestamp('client', 'before_request_%s' % task_name)
@@ -42,33 +46,37 @@ def close_connection(client):
     client.send(model_name_length_b)
     timestamp('client', 'close_connection')
 
-def main():
-    model_name = sys.argv[1]
-    batch_size = int(sys.argv[2])
-    scheduling_cycle = int(sys.argv[3])
 
+def main():
+    # unit second
+    time_interval = float(sys.argv[1])
+
+    # total time for each each experiment to run
+    interval_count = int(sys.argv[2])
+
+    batch_size = 8
+    model_name = 'resnet152'
     task_name_inf = '%s_inference' % model_name
-    task_name_train = '%s_training' % model_name
 
     # Load image
     data = get_data(model_name, batch_size)
 
-    #latency_list = []
-    throughput_list = []
-    for _ in range(20):
-        # Send training request
-        client_train = TcpClient('localhost', 12345)
-        send_request(client_train, task_name_train, None)
-        time.sleep(scheduling_cycle)
+    latency_list = []
+    inf_throughput_list = []
+    for _ in range(interval_count + 2):
+        each_exp_latency = []
+        inf_throughput = 0
+        interval_start_time = time.time()
+        while True:
+            if time.time() - interval_start_time > interval:
+                # end current experiment
+                inf_throughput_list.append(inf_throughput)
+                latency_list.append(each_exp_latency)
+                break
 
-        # Connect
-        client_inf = TcpClient('localhost', 12345)
-        timestamp('client', 'after_inference_connect')
-
-        #count
-        inference_count = 0
-        time_count = scheduling_cycle
-        while (time_count > 0):
+            # Connect
+            client_inf = TcpClient('localhost', 12345)
+            timestamp('client', 'after_inference_connect')
             time_1 = time.time()
 
             # Send inference request
@@ -77,33 +85,22 @@ def main():
             # Recv inference reply
             recv_response(client_inf)
             time_2 = time.time()
-            time_count -= (time_2 - time_1)
+            latency = (time_2 - time_1) * 1000
+            each_exp_latency.append(latency)
+            inf_throughput += 1
 
-            #If time exceeds, do not count this iteration
-            if (time_count > 0):
-                inference_count += 1
-            
+            close_connection(client_inf)
+            timestamp('**********', '**********')
 
-        throughput_list.append(inference_count)
-        #print(inference_count)
-
-
-        time.sleep(1)
-        recv_response(client_train) 
-        close_connection(client_inf)
-        close_connection(client_train)
-        time.sleep(1)
-        timestamp('**********', '**********')
-
-    print()
-    print()
-    print()
-    print(throughput_list)
-    stable_throughput_list = throughput_list[10:]
-    #print (stable_throughput_list)
-    value = (statistics.mean(stable_throughput_list)) / scheduling_cycle
-    print ('Throughput: %f  (stdev: %f)' % (value, 
-                                           statistics.stdev(stable_throughput_list)))
+    stable_throughput = throughput_list[2:]
+    stable_latency_list = sum(latency_list[2:])
+    print ('OpenSourceOutputFlag',
+        statistics.mean(stable_throughput), 
+        statistics.mean(stable_latency_list), 
+        min(stable_latency_list), 
+        max(stable_latency_list), 
+        sep=', '
+    )
 
 if __name__ == '__main__':
     main()

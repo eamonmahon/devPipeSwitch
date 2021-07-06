@@ -10,7 +10,8 @@ def main():
         time.sleep(30)
 
         scheduling_cycle = 10
-        p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput_ready.py', 'resnet152', str(batch_size), scheduling_cycle])
+        interval_count = 10
+        p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput_ready.py', str(scheduling_cycle), str(interval_count)])
 
         p_client.wait()
         p_server.kill()
