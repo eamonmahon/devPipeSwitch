@@ -75,8 +75,9 @@ def main():
         while True:
             if time.time() - interval_start_time > time_interval:
                 # end current experiment
-                inf_throughput_list.append(inf_throughput)
-                inf_latency_list.append(each_exp_latency)
+                if last_request == task_name_inf:
+                    inf_throughput_list.append(inf_throughput)
+                    inf_latency_list.append(each_exp_latency)
 
                 # switch task
                 cur_task = task_name_inf if cur_task != task_name_inf else task_name_train
