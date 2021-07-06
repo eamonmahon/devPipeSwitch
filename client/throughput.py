@@ -62,7 +62,7 @@ def main():
     # Load image
     data = get_data(model_name, batch_size)
 
-    latency_list = []
+    inf_latency_list = []
     inf_throughput_list = []
     for _ in range(interval_count + 2):
         each_exp_latency = []
