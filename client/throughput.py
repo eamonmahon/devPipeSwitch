@@ -109,7 +109,8 @@ def main():
                 latency = (time_2 - time_1) * 1000
                 # latency_list.append(latency)
                 each_exp_latency.append(latency)
-                inf_throughput += 1
+                if latency < time_interval:
+                    inf_throughput += 1
 
                 # time.sleep(0.1)
                 if last_request == task_name_train:
