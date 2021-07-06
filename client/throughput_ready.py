@@ -61,7 +61,7 @@ def main():
     # Load image
     data = get_data(model_name, batch_size)
 
-    latency_list = []
+    inf_latency_list = []
     inf_throughput_list = []
     for _ in range(interval_count + 2):
         each_exp_latency = []
@@ -71,7 +71,7 @@ def main():
             if time.time() - interval_start_time > time_interval:
                 # end current experiment
                 inf_throughput_list.append(inf_throughput)
-                latency_list.append(each_exp_latency)
+                inf_latency_list.append(each_exp_latency)
                 break
 
             # Connect
@@ -92,8 +92,8 @@ def main():
             close_connection(client_inf)
             timestamp('**********', '**********')
 
-    stable_throughput = throughput_list[2:]
-    stable_latency_list = sum(latency_list[2:])
+    stable_throughput = inf_throughput_list[2:]
+    stable_latency_list = sum(inf_latency_list[2:])
     print ('OpenSourceOutputFlag',
         statistics.mean(stable_throughput), 
         statistics.mean(stable_latency_list), 
