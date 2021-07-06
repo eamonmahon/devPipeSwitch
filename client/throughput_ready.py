@@ -93,7 +93,7 @@ def main():
             timestamp('**********', '**********')
 
     stable_throughput = inf_throughput_list[2:]
-    stable_latency_list = sum(inf_latency_list[2:])
+    stable_latency_list = sum(inf_latency_list[2:], [])
     print ('OpenSourceOutputFlag',
         statistics.mean(stable_throughput), 
         statistics.mean(stable_latency_list), 
