@@ -18,16 +18,15 @@ def main():
     for _ in range(20):
         timestamp('client', 'before_request')
 
-        # Connect
-        client = TcpClient('localhost', 12345)
-        timestamp('client', 'after_connect')
-
-
         #count
         inference_count = 0
         time_count = scheduling_cycle
         while (time_count > 0):
             time_1 = time.time()
+
+            # Connect
+            client = TcpClient('localhost', 12345)
+            timestamp('client', 'after_connect')
 
             # Serialize data
             task_name = model_name + '_inference'
