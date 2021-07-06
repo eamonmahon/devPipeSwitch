@@ -52,7 +52,7 @@ def func_schedule(qin):
         else:
             if active_worker is not None:
                 timestamp('Killing active worker', '')
-                active_worker.kill()
+                active_worker.terminate()
                 active_worker.join()
             parent_p, child_p = mp.Pipe()
             active_pipe = parent_p
