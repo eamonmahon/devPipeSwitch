@@ -64,12 +64,12 @@ def main():
 
     inf_latency_list = []
     inf_throughput_list = []
+    cur_task = task_name_train
     for _ in range(interval_count + 2):
         each_exp_latency = []
         inf_throughput = 0
         interval_start_time = time.time()
 
-        cur_task = task_name_train
         last_request = None
         client_train = None
         while True:
