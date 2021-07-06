@@ -95,7 +95,7 @@ def main():
     stable_throughput = inf_throughput_list[2:]
     stable_latency_list = sum(inf_latency_list[2:], [])
     print ('OpenSourceOutputFlag',
-        statistics.mean(stable_throughput), 
+        statistics.mean(stable_throughput) / time_interval,
         statistics.mean(stable_latency_list), 
         min(stable_latency_list), 
         max(stable_latency_list), 
