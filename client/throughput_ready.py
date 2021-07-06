@@ -68,7 +68,7 @@ def main():
         inf_throughput = 0
         interval_start_time = time.time()
         while True:
-            if time.time() - interval_start_time > interval:
+            if time.time() - interval_start_time > time_interval:
                 # end current experiment
                 inf_throughput_list.append(inf_throughput)
                 latency_list.append(each_exp_latency)
