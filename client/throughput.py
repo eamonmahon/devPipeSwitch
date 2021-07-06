@@ -108,7 +108,7 @@ def main():
                 time_2 = time.time()
                 latency = (time_2 - time_1) * 1000
                 each_exp_latency.append(latency)
-                if latency < interval:
+                if latency < time_interval:
                     inf_throughput += 1
 
                 # time.sleep(0.1)
