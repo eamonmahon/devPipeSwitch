@@ -107,9 +107,9 @@ def main():
                 recv_response(client_inf)
                 time_2 = time.time()
                 latency = (time_2 - time_1) * 1000
-                # latency_list.append(latency)
                 each_exp_latency.append(latency)
-                inf_throughput += 1
+                if latency < interval:
+                    inf_throughput += 1
 
                 # time.sleep(0.1)
                 if last_request == task_name_train:
