@@ -9,7 +9,7 @@ def main():
         p_server = subprocess.Popen(['python','PipeSwitch/pipeswitch/main.py','PipeSwitch/pipeswitch/model_list.txt'], stdout=fnull, stderr=fnull)
         time.sleep(30)
 
-        scheduling_cycle = 10
+        scheduling_cycle = 2
         interval_count = 10
         p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput.py', str(scheduling_cycle), str(interval_count)], stderr=fnull)
 
