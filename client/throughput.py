@@ -65,13 +65,12 @@ def main():
     inf_latency_list = []
     inf_throughput_list = []
     cur_task = task_name_train
+    last_request = None
+    client_train = None
     for _ in range(interval_count + 2):
         each_exp_latency = []
         inf_throughput = 0
         interval_start_time = time.time()
-
-        last_request = None
-        client_train = None
         while True:
             if time.time() - interval_start_time > time_interval:
                 # end current experiment
@@ -93,7 +92,7 @@ def main():
 
                 if last_request is None:
                     time.sleep(10)
-                    
+
                 last_request = task_name_train
                 print('end the training request')
             else:
