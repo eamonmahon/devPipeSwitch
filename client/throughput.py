@@ -91,6 +91,9 @@ def main():
                 send_request(client_train, task_name_train, None)
                 time.sleep(time_interval)
 
+                if last_request is None:
+                    time.sleep(10)
+                    
                 last_request = task_name_train
                 print('end the training request')
             else:
