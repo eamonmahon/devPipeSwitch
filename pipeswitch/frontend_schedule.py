@@ -96,6 +96,7 @@ class FrontendScheduleThd(threading.Thread):
                             cuda_stream_for_parameter,
                             param_trans_pipe):
         param_cuda_list = []
+        completed_mod_list = []
         for param, mod_list in batched_parameter_list:
             with torch.cuda.stream(cuda_stream_for_parameter):
                 if param is not None:
@@ -104,4 +105,7 @@ class FrontendScheduleThd(threading.Thread):
                     e = torch.cuda.Event()
                     e.record()
                     e.synchronize()
-                param_trans_pipe.send(mod_list[0])
+                # param_trans_pipe.send(mod_list[0])
+                completed_mod_list.append(mod_list[0])
+        for m in completed_mod_list:
+            param_trans_pipe.send(m)
