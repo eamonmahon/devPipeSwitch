@@ -5,6 +5,7 @@ import subprocess
 batch_size = 8
 
 def main():
+    print ('Confirm the correct script is invoked.')
     with open(os.devnull, 'w') as fnull:
         p_server = subprocess.Popen(['python','PipeSwitch/pipeswitch/main.py','PipeSwitch/pipeswitch/model_list.txt'], stdout=fnull, stderr=fnull)
         time.sleep(30)
