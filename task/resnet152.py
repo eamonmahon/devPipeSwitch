@@ -45,21 +45,13 @@ def import_model():
 
 def partition_model(model):
     group_list = []
-    before_core = []
-    core_complete = False
-    after_core = []
-
-    group_list.append(before_core)
-    for name, child in model.named_children():
-        if 'layer' in name:
-            core_complete = True
-            for _, child_child in child.named_children():
-                group_list.append([child_child])
+    def per_layer_group(mod, groups):
+        childs = list(mod.children())
+        if len(childs) == 0 and mod._get_name() not in ('ReLU'):
+            groups.append([mod])
         else:
-            if not core_complete:
-                before_core.append(child)
-            else:
-                after_core.append(child)
-    group_list.append(after_core)
+            for c in childs:
+                per_layer_group(c, groups)
+    per_layer_group(model, group_list)
 
     return group_list
