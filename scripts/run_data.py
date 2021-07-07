@@ -10,7 +10,7 @@ def main():
         time.sleep(30)
 
         scheduling_cycle = 10
-        interval_count = 10
+        interval_count = 4
         p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput.py', str(scheduling_cycle), str(interval_count)], stderr=fnull)
 
         p_client.wait()
