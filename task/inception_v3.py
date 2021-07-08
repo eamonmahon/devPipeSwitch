@@ -44,5 +44,16 @@ def import_model():
     return model
 
 def partition_model(model):
-    group_list = [[child] for child in model.children()]
+    # group_list = [[child] for child in model.children()]
+    # return group_list
+    group_list = []
+    def per_layer_group(mod, groups):
+        childs = list(mod.children())
+        if len(childs) == 0 and mod._get_name() not in ('ReLU'):
+            groups.append([mod])
+        else:
+            for c in childs:
+                per_layer_group(c, groups)
+    per_layer_group(model, group_list)
+
     return group_list
