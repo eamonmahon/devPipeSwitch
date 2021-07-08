@@ -50,6 +50,7 @@ def close_connection(client):
 def main():
     # unit second
     time_interval = float(sys.argv[1])
+    time_interval_ms = time_interval * 1000
 
     # total time for each each experiment to run
     interval_count = int(sys.argv[2])
@@ -108,7 +109,7 @@ def main():
                 time_2 = time.time()
                 latency = (time_2 - time_1) * 1000
                 each_exp_latency.append(latency)
-                if latency < time_interval:
+                if latency < time_interval_ms:
                     inf_throughput += 1
 
                 # time.sleep(0.1)
