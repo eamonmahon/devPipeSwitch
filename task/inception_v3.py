@@ -44,5 +44,7 @@ def import_model():
     return model
 
 def partition_model(model):
-    group_list = [[child] for child in model.children()]
+    # group_list = [[child] for child in model.children()]
+    # return group_list
+    group_list = [[model]]
     return group_list
