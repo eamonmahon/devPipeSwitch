@@ -6,7 +6,7 @@ batch_size = 8
 
 def main():
     with open(os.devnull, 'w') as fnull:
-        p_server = subprocess.Popen(['python', 'PipeSwitch/ready_model/ready_model.py','resnet152'], stdout=fnull, stderr=fnull)
+        p_server = subprocess.Popen(['python','PipeSwitch/kill_restart/kill_restart.py','resnet152'], stdout=fnull, stderr=fnull)
         time.sleep(30)
 
         scheduling_cycle = 5
