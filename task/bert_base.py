@@ -33,16 +33,6 @@ def import_data(batch_size):
     return data, target
 
 def partition_model(model):
-    group_list = []
-    childs = list(model.children())
-    group_list.append([childs[0]])
-
-    for c in childs[1].children():
-        for sc in c.children():
-            for ssc in sc.children():
-                group_list.append([ssc])
-    for c in childs[2].children():
-        group_list.append([c])
-    assert len(childs) == 3
+    group_list = [[model]]
 
     return group_list
