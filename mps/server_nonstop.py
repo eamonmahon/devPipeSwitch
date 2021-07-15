@@ -37,11 +37,11 @@ def func_get_request(active_model_name, qout):
         timestamp('tcp', 'get_data')
 
         if 'training' in model_name:
-            if active_model_name not in model_name:
-                raise Exception('Invalid model name')
             agent.send(b'FNSH')
             del agent
         else:
+            if active_model_name not in model_name:
+                raise Exception('Invalid model name')
             qout.put((agent, data_b))
 
 def func_schedule(qin, p_train, p_child):
