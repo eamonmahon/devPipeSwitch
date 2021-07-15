@@ -7,8 +7,8 @@ import numpy
 import torch
 import torch.multiprocessing as mp
 
-from core.util import TcpServer, TcpAgent, timestamp
-from task.task_util import kMinBlockSize
+from util.util import TcpServer, TcpAgent, timestamp
+from task.common import kMinBlockSize
 
 NUM_WORKERS = 2
 
