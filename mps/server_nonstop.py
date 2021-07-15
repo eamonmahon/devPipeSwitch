@@ -26,8 +26,6 @@ def func_get_request(active_model_name, qout):
             break
         model_name_b = agent.recv(model_name_length)
         model_name = model_name_b.decode()
-        if active_model_name not in model_name:
-            raise Exception('Invalid model name')
         timestamp('tcp', 'get_name')
 
         data_length_b = agent.recv(4)
@@ -39,6 +37,8 @@ def func_get_request(active_model_name, qout):
         timestamp('tcp', 'get_data')
 
         if 'training' in model_name:
+            if active_model_name not in model_name:
+                raise Exception('Invalid model name')
             agent.send(b'FNSH')
             del agent
         else:
@@ -58,7 +58,7 @@ def main():
 
     # Create worker process
     train_parent, train_child = mp.Pipe()
-    p_train = TrainProc(model_name, train_child)
+    p_train = TrainProc('resnet152', train_child)
     p_train.start()
     infer_parent, infer_child = mp.Pipe()
     p_infer = InferProc(model_name, infer_child)
