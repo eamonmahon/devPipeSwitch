@@ -12,7 +12,7 @@ def main():
 
         scheduling_cycle = 2
         interval_count = 10
-        p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput_ready.py', str(scheduling_cycle), str(interval_count)], stderr=fnull)
+        p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput.py', str(scheduling_cycle), str(interval_count)], stderr=fnull)
 
         p_client.wait()
         p_server.kill()
