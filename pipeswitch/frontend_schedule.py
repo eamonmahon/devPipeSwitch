@@ -87,7 +87,7 @@ class FrontendScheduleThd(threading.Thread):
             if param is None:
                 processed_batched_parameter_list.append((None, mod_list))
             else:
-                processed_batched_parameter_list.append((param.pin_memory(), mod_list))
+                processed_batched_parameter_list.append((param, mod_list))
 
         return processed_batched_parameter_list
 
