@@ -34,15 +34,28 @@ def import_data(batch_size):
 
 def partition_model(model):
     group_list = []
-    childs = list(model.children())
-    group_list.append([childs[0]])
+    def _record_forward_hook(module, input, output):
+        group_list.append([module])
 
-    for c in childs[1].children():
-        for sc in c.children():
-            for ssc in sc.children():
-                group_list.append([ssc])
-    for c in childs[2].children():
-        group_list.append([c])
-    assert len(childs) == 3
+    layers = []
+    def get_layers(mod):
+        childs = list(mod.children())
+        if len(childs) == 0:
+            layers.append(mod)
+        for c in childs:
+            get_layers(c)
+    get_layers(model)
+    print('partition model layers', len(layers))
+    handles = []
+    for l in layers:
+        h = l.register_forward_hook(_record_forward_hook)
+        handles.append(h)
+    data0 = torch.randint(5000, size=[1, 10])
+    data1 = torch.randint(2, size=[1, 10])
+    _ = model(data0, token_type_ids=data1)
+
+    # clean handles
+    for h in handles:
+        h.remove()
 
     return group_list
