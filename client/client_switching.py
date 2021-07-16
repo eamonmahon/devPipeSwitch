@@ -47,7 +47,7 @@ def main():
     batch_size = int(sys.argv[2])
 
     task_name_inf = '%s_inference' % model_name
-    task_name_train = '%s_training' % model_name
+    task_name_train = 'resnet152_training'
 
     # Load image
     data = get_data(model_name, batch_size)
