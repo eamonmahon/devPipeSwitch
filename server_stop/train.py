@@ -1,7 +1,7 @@
 import time
 import threading
 import importlib
-import multiprocessing as mp
+import torch.multiprocessing as mp
 
 class PauseThd(threading.Thread):
     def __init__(self, pipe, PAUSE_SIGNAL):
