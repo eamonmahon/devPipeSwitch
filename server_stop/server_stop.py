@@ -58,7 +58,7 @@ def main():
 
     # Create worker process
     train_parent, train_child = mp.Pipe()
-    p_train = TrainProc(model_name, train_child)
+    p_train = TrainProc('resnet152', train_child)
     p_train.start()
     infer_parent, infer_child = mp.Pipe()
     p_infer = InferProc(model_name, infer_child)
