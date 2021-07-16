@@ -8,8 +8,8 @@ import torch
 import torch.multiprocessing as mp
 
 from util.util import TcpServer, TcpAgent, timestamp
-from server_stop.train import TrainProc
-from server_stop.inference import InferProc
+from unified_memory.train import TrainProc
+from unified_memory.inference import InferProc
 
 def func_get_request(active_model_name, qout):
     # Listen connections
