@@ -26,8 +26,6 @@ def func_get_request(active_model_name, qout):
             break
         model_name_b = agent.recv(model_name_length)
         model_name = model_name_b.decode()
-        if active_model_name not in model_name:
-            raise Exception('Invalid model name')
         timestamp('tcp', 'get_name')
 
         data_length_b = agent.recv(4)
@@ -42,6 +40,8 @@ def func_get_request(active_model_name, qout):
             agent.send(b'FNSH')
             del agent
         else:
+            if active_model_name not in model_name:
+                raise Exception('Invalid model name')
             qout.put((agent, data_b))
 
 def func_schedule(qin, p_train, p_child):
