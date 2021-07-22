@@ -53,8 +53,7 @@ def main():
     data = get_data(model_name, batch_size)
 
     latency_list = []
-    # for _ in range(20):
-    for _ in range(5):
+    for _ in range(20):
         # Send training request
         client_train = TcpClient('localhost', 12345)
         send_request(client_train, task_name_train, None)
