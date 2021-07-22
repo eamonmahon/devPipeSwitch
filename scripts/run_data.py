@@ -14,11 +14,17 @@ def main():
         print ('Run 2')
         sys.stdout.flush()
         time.sleep(30)
-        # p_client = subprocess.Popen(['python','PipeSwitch/client/client_switching.py', 'resnet152', str(batch_size)], stderr=fnull)
-        p_client = subprocess.Popen(['python','PipeSwitch/client/client_switching.py', 'resnet152', str(batch_size)])
+        p_client = subprocess.Popen(['python','PipeSwitch/client/client_switching.py', 'resnet152', str(batch_size)], stderr=fnull)
+        # p_client = subprocess.Popen(['python','PipeSwitch/client/client_switching.py', 'resnet152', str(batch_size)])
         print ('Run 3')
         sys.stdout.flush()
-        p_client.wait()
+        while True:
+            try:
+                p_client.wait(1)
+                print (time.time())
+                break
+            except:
+                continue
         print ('Run 4')
         sys.stdout.flush()
         p_server.kill()
