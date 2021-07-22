@@ -58,7 +58,7 @@ def main():
         # Send training request
         client_train = TcpClient('localhost', 12345)
         send_request(client_train, task_name_train, None)
-        time.sleep(10)
+        time.sleep(15)
 
         # Connect
         client_inf = TcpClient('localhost', 12345)
