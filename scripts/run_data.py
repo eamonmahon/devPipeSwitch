@@ -21,10 +21,10 @@ def main():
         while True:
             try:
                 p_client.wait(1)
-                print (time.time())
                 sys.stdout.flush()
                 break
             except:
+                print (time.time())
                 continue
         print ('Run 4')
         sys.stdout.flush()
