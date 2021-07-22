@@ -22,6 +22,7 @@ def main():
             try:
                 p_client.wait(1)
                 print (time.time())
+                sys.stdout.flush()
                 break
             except:
                 continue
