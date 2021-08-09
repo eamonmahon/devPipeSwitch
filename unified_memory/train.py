@@ -26,7 +26,8 @@ class TrainProc(mp.Process):
         self.PAUSE_SIGNAL = [0]
         
     def run(self):
-        model_module = importlib.import_module('task.' + self.model_name + '_training')
+        # model_module = importlib.import_module('task.' + self.model_name + '_training')
+        model_module = importlib.import_module('task.resnet152_training')
         model = model_module.import_model()
         func = model_module.import_func()
         data_loader = model_module.import_data_loader()
