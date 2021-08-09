@@ -7,9 +7,9 @@ import importlib
 import torch
 import torch.multiprocessing as mp
 
-from experiments.util import TcpServer, TcpAgent, timestamp
-from experiments.server_stop.train import TrainProc
-from experiments.server_stop.inference import InferProc
+from util.util import TcpServer, TcpAgent, timestamp
+from unified_memory.train import TrainProc
+from unified_memory.inference import InferProc
 
 def func_get_request(active_model_name, qout):
     # Listen connections
@@ -48,9 +48,9 @@ def func_schedule(qin, p_train, p_child):
     while True:
         agent, data_b = qin.get()
         p_child.send((agent, data_b))
-        #p_train.send('PAUSE')
-        #p_child.recv()
-        #p_train.send('START')
+        p_train.send('PAUSE')
+        p_child.recv()
+        p_train.send('START')
 
 def main():
     # Get model name
