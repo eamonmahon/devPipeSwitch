@@ -26,8 +26,8 @@ def func_get_request(active_model_name, qout):
             break
         model_name_b = agent.recv(model_name_length)
         model_name = model_name_b.decode()
-        if active_model_name not in model_name:
-            raise Exception('Invalid model name')
+        # if active_model_name not in model_name:
+        #     raise Exception('Invalid model name')
         timestamp('tcp', 'get_name')
 
         data_length_b = agent.recv(4)
