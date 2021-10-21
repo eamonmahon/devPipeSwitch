@@ -1,3 +1,2 @@
 resnet152_training
 bert_base_inference
-bert_base_training
