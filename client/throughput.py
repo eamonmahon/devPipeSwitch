@@ -108,7 +108,6 @@ def main():
                 recv_response(client_inf)
                 time_2 = time.time()
                 latency = (time_2 - time_1) * 1000
-                # latency_list.append(latency)
                 each_exp_latency.append(latency)
                 if latency < time_interval_ms:
                     inf_throughput += 1
