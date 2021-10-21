@@ -89,6 +89,7 @@ def main():
     #                                        statistics.stdev(stable_latency_list)))
 
     print ('OpenSourceOutputFlag', statistics.mean(stable_latency_list), statistics.stdev(stable_latency_list), len(stable_latency_list), sep=', ')
+    sys.stdout.flush()
 
 if __name__ == '__main__':
     main()
