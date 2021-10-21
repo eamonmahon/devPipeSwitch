@@ -20,7 +20,7 @@ def import_func():
     def train(model, data_loader):
         # Prepare data
         # batch_size = 32
-        batch_size = 80
+        batch_size = 72
         images, target = data_loader(batch_size)
 
         # Prepare training
@@ -31,7 +31,7 @@ def import_func():
         optimizer = torch.optim.SGD(model.parameters(), lr, momentum=momentum, weight_decay=weight_decay)
 
         loss = None
-        for i in range(100):
+        for i in range(1000000):
             # Data to GPU
             images_cuda = images.cuda(non_blocking=True)
             target_cuda = target.cuda(non_blocking=True)
