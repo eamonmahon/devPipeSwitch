@@ -10,11 +10,7 @@ def main():
         p_server = subprocess.Popen(['python','PipeSwitch/kill_restart/kill_restart.py','resnet152'], stdout=fnull, stderr=fnull)
         time.sleep(30)
 
-<<<<<<< HEAD
         scheduling_cycle = 30
-=======
-        scheduling_cycle = 1
->>>>>>> figure6_kill_restart_1s
         interval_count = 10
         p_client = subprocess.Popen(['python', 'PipeSwitch/client/throughput.py', str(scheduling_cycle), str(interval_count)], stderr=fnull)
 
