@@ -114,6 +114,7 @@ def worker_compute(model_list, pipe, pipe_term):
                     TERM_SIGNAL[0] = 1
                     output = func(model, data_loader)
                 except:
+                    torch.cuda.empty_cache()
                     pipe_term.send('TERM')
                     TERM_SIGNAL[0] = 0
                     timestamp('server', 'complete')
