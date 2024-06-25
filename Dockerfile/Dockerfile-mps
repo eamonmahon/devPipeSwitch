@@ -3,23 +3,21 @@ FROM pipeswitch:base
 RUN pip install --upgrade pip
 RUN pip install scipy
 RUN pip install transformers==2.5.0
+RUN mkdir -p /root/.cache/torch/hub/refs/tags && chmod -R 777 /root/.cache/torch/hub/refs/tags
 
 WORKDIR /workspace
-RUN git clone --branch dev https://github.com/baizh1994/PipeSwitch.git
+RUN git clone --branch dev https://github.com/eamonmahon/devPipeSwitch.git
 
-ENV PYTHONPATH=/workspace/PipeSwitch
+ENV PYTHONPATH=/workspace/devPipeSwitch
 
-WORKDIR /workspace/PipeSwitch
+WORKDIR /workspace/devPipeSwitch
 RUN python scripts/environment/container_download_models.py
 
-WORKDIR /workspace/PipeSwitch/mps
+WORKDIR /workspace/devPipeSwitch/mps
 RUN bash overwrite.sh /workspace/pytorch/
 
 WORKDIR /workspace/pytorch
 ENV CMAKE_PREFIX_PATH=/opt/conda/
 RUN python setup.py install
-
-WORKDIR /workspace
-RUN rm -rf PipeSwitch
 
 WORKDIR /workspace

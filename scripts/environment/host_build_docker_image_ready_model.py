@@ -12,7 +12,7 @@ def main():
     for server in server_list:
         print ('%s> Build docker image for ready_model' % server['id'])
         with RunRemoteRepo(server, 'dev') as rrr:
-            rrr.run("bash ~/PipeSwitch/scripts/environment/server_build_docker_image_ready_model.sh")
+            rrr.run("bash ~/devPipeSwitch/scripts/environment/server_build_docker_image_ready_model.sh")
         print ('%s> Complete building docker image for ready_model' % server['id'])
 
 if __name__ == '__main__':
