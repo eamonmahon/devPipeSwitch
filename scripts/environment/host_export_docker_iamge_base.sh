@@ -1,6 +1,11 @@
 # Get current work dir
 WORK_DIR=$(pwd)
-mkdir $WORK_DIR/tmp
+
+if [ ! -d "$WORK_DIR/tmp" ]; then
+    mkdir "$WORK_DIR/tmp"
+else
+    echo "Using previously made $WORK_DIR/tmp directory."
+fi
 
 # Import global variables
 source $WORK_DIR/scripts/config/env.sh
