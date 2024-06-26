@@ -16,3 +16,6 @@ WORKDIR /workspace/PipeSwitch
 RUN python scripts/environment/container_download_models.py
 
 WORKDIR /workspace
+RUN rm -rf PipeSwitch
+
+WORKDIR /workspace
