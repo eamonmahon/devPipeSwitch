@@ -1,0 +1,659 @@
+rizer.py to regularizer.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/convert_test.py to convert_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/functional.py to functional.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/utils_test.py to utils_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/normalizer_test.py to normalizer_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/compatibility.py to compatibility.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/layers_test.py to layers_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/net_builder.py to net_builder.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/serialized_test/coverage.py to coverage.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/serialized_test/serialized_test_util.py to serialized_test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/serialized_test/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/schema_test.py to schema_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/predictor_constants.py to predictor_constants.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/net_modifier.py to net_modifier.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/initializers_test.py to initializers_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/get_entry_from_blobs.py to get_entry_from_blobs.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_histogram_for_blobs.py to compute_histogram_for_blobs.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_histogram_for_blobs_test.py to compute_histogram_for_blobs_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/parameter_sharing_test.py to parameter_sharing_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_norm_for_blobs_test.py to compute_norm_for_blobs_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/initializers.py to initializers.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/get_entry_from_blobs_test.py to get_entry_from_blobs_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/parameter_info.py to parameter_info.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/gradient_clipping_test.py to gradient_clipping_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/gradient_clipping.py to gradient_clipping.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_statistics_for_blobs.py to compute_statistics_for_blobs.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_statistics_for_blobs_test.py to compute_statistics_for_blobs_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/parameter_sharing.py to parameter_sharing.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/modeling/compute_norm_for_blobs.py to compute_norm_for_blobs.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/toy_regression_test.py to toy_regression_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/shufflenet_test.py to shufflenet_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/imagenet_trainer_test_utils.py to imagenet_trainer_test_utils.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/__sym_init__.py to __sym_init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/shufflenet.py to shufflenet.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/seq2seq_model_helper.py to seq2seq_model_helper.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/seq2seq_util.py to seq2seq_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/translate.py to translate.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/train.py to train.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/seq2seq_beam_search_test.py to seq2seq_beam_search_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/beam_search.py to beam_search.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/seq2seq/seq2seq_model_helper_test.py to seq2seq_model_helper_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/resnet.py to resnet.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/download.py to download.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/models/resnet_test.py to resnet_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/nomnigraph_transformations.py to nomnigraph_transformations.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/numa_test.py to numa_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/hip_test_util.py to hip_test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/core_test.py to core_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/regularizer_test.py to regularizer_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/net_printer_test.py to net_printer_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/optimizer_test.py to optimizer_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/numa_benchmark.py to numa_benchmark.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/rnn/rnn_cell_test_util.py to rnn_cell_test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/rnn/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/rnn/lstm_comparison.py to lstm_comparison.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/layer_test_util.py to layer_test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/checkpoint.py to checkpoint.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/test_util.py to test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/checkpoint_test.py to checkpoint_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/control_ops_grad_test.py to control_ops_grad_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/build.py to build.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/control_test.py to control_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/tools.py to tools.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/array_helpers.py to array_helpers.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/dropout.py to dropout.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/normalization.py to normalization.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/fc.py to fc.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/control_ops.py to control_ops.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/db_input.py to db_input.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/arg_scope.py to arg_scope.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/__init__.py to __init__.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/pooling.py to pooling.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/conv.py to conv.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/algebra.py to algebra.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/nonlinearity.py to nonlinearity.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/train.py to train.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/helpers/elementwise_linear.py to elementwise_linear.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/experiment_util.py to experiment_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/gradient_checker.py to gradient_checker.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/control_ops_grad.py to control_ops_grad.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl_test_util.py to mkl_test_util.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/nomnigraph_test.py to nomnigraph_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/muji_test.py to muji_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/scope_test.py to scope_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/sparse_to_dense_mask_test.py to sparse_to_dense_mask_test.cpython-36.pyc
+#16 231.4 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/transformations_test.py to transformations_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/fused_8bit_rowwise_conversion_ops_test.py to fused_8bit_rowwise_conversion_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/brew_test.py to brew_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/filler_test.py to filler_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/binarysize.py to binarysize.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/scope.py to scope.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/_import_c_extension.py to _import_c_extension.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/data_parallel_model.py to data_parallel_model.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/normalizer.py to normalizer.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/gradient_check_test.py to gradient_check_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/crf_viterbi_test.py to crf_viterbi_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/dataset.py to dataset.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/data_workers.py to data_workers.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/net_drawer.py to net_drawer.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/recurrent.py to recurrent.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/convnet_benchmarks_test.py to convnet_benchmarks_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/crf.py to crf.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/ideep_test_util.py to ideep_test_util.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/nomnigraph.py to nomnigraph.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/convert.py to convert.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/lengths_reducer_rowwise_8bit_ops_test.py to lengths_reducer_rowwise_8bit_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/task.py to task.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/normalizer_context.py to normalizer_context.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/timeout_guard.py to timeout_guard.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/dataio.py to dataio.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/functional_test.py to functional_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_relu_op_test.py to mkl_relu_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_speed_test.py to mkl_speed_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_pool_speed_test.py to mkl_pool_speed_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_fill_op_test.py to mkl_fill_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_sigmoid_op_test.py to mkl_sigmoid_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_conv_op_test.py to mkl_conv_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_squeeze_op_test.py to mkl_squeeze_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_sbn_op_test.py to mkl_sbn_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/rewrite_graph.py to rewrite_graph.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/rewrite_graph_test.py to rewrite_graph_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_elementwise_sum_op_test.py to mkl_elementwise_sum_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_copy_op_test.py to mkl_copy_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_pool_op_test.py to mkl_pool_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_elementwise_add_op_test.py to mkl_elementwise_add_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_fc_op_test.py to mkl_fc_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_fc_speed_test.py to mkl_fc_speed_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_LRN_speed_test.py to mkl_LRN_speed_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_LRN_op_test.py to mkl_LRN_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_sbn_speed_test.py to mkl_sbn_speed_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/mkl/mkl_concat_op_test.py to mkl_concat_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/hypothesis_test.py to hypothesis_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/db_test.py to db_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/record_queue.py to record_queue.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/visualize.py to visualize.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/optimizer_context.py to optimizer_context.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/caffe_translator.py to caffe_translator.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/parallel_workers.py to parallel_workers.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/python/sparse_to_dense_test.py to sparse_to_dense_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/distributed/file_store_handler_op_test.py to file_store_handler_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/distributed/redis_store_handler_op_test.py to redis_store_handler_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/distributed/store_ops_test_util.py to store_ops_test_util.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/distributed/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/perfkernels/hp_emblookup_codegen.py to hp_emblookup_codegen.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/perfkernels/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/aten/aten_test.py to aten_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/aten/docs/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/aten/docs/sample.py to sample.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/aten/gen_op.py to gen_op.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/aten/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/prof/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/prof/cuda_profile_ops_test.py to cuda_profile_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/warpctc/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/warpctc/ctc_ops_test.py to ctc_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/script/examples/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/script/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/tensorboard/tensorboard.py to tensorboard.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/tensorboard/tensorboard_test.py to tensorboard_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/tensorboard/tensorboard_exporter_test.py to tensorboard_exporter_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/tensorboard/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/tensorboard/tensorboard_exporter.py to tensorboard_exporter.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/nccl/nccl_ops_test.py to nccl_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/nccl/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/nnpack/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/nnpack/nnpack_ops_test.py to nnpack_ops_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/module_map.py to module_map.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/compute_topk_accuracy.py to compute_topk_accuracy.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/meter.py to meter.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/ModuleRegister.py to ModuleRegister.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/AnyExp.py to AnyExp.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/AnyExpOnTerm.py to AnyExpOnTerm.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/compute_loss.py to compute_loss.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/output_generator.py to output_generator.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/checkpoint.py to checkpoint.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/explicit_resnet_forward.py to explicit_resnet_forward.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/IN1k_resnet.py to IN1k_resnet.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/caffe2_resnet50_default_param_update.py to caffe2_resnet50_default_param_update.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/explicit_resnet_param_update.py to explicit_resnet_param_update.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/IN1k_resnet_no_test_model.py to IN1k_resnet_no_test_model.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/caffe2_resnet50_default_forward.py to caffe2_resnet50_default_forward.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/gfs_IN1k.py to gfs_IN1k.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/override_no_test_model_no_checkpoint.py to override_no_test_model_no_checkpoint.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/playground/resnetdemo/rendezvous_filestore.py to rendezvous_filestore.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/gloo/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/contrib/gloo/gloo_test.py to gloo_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/conv_dnnlowp_acc16_op_test.py to conv_dnnlowp_acc16_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/fully_connected_dnnlowp_op_test.py to fully_connected_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/tanh_dnnlowp_op_test.py to tanh_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/conv_groupwise_dnnlowp_acc16_op_test.py to conv_groupwise_dnnlowp_acc16_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/fully_connected_fp16_test.py to fully_connected_fp16_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/utils.py to utils.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/lstm_unit_dnnlowp_op_test.py to lstm_unit_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/sigmoid_dnnlowp_op_test.py to sigmoid_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/spatial_batch_norm_dnnlowp_op_test.py to spatial_batch_norm_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/dnnlowp_test_utils.py to dnnlowp_test_utils.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/fully_connected_dnnlowp_acc16_op_test.py to fully_connected_dnnlowp_acc16_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/observer_test.py to observer_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/relu_dnnlowp_op_test.py to relu_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/concat_dnnlowp_op_test.py to concat_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/quantize_dnnlowp_op_test.py to quantize_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/elementwise_add_dnnlowp_op_test.py to elementwise_add_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/pool_dnnlowp_op_test.py to pool_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/dequantize_dnnlowp_op_test.py to dequantize_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/conv_dnnlowp_op_test.py to conv_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/resize_nearest_3d_dnnlowp_op_test.py to resize_nearest_3d_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/conv_depthwise_dnnlowp_op_test.py to conv_depthwise_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/fully_connected_rowwise_dnnlowp_op_test.py to fully_connected_rowwise_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/__init__.py to __init__.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/batch_permutation_dnnlowp_op_test.py to batch_permutation_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/resize_nearest_dnnlowp_op_test.py to resize_nearest_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/elementwise_mul_dnnlowp_op_test.py to elementwise_mul_dnnlowp_op_test.cpython-36.pyc
+#16 231.5 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/elementwise_sum_dnnlowp_op_test.py to elementwise_sum_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/channel_shuffle_dnnlowp_op_test.py to channel_shuffle_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/gather_dnnlowp_op_test.py to gather_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/batch_matmul_dnnlowp_op_test.py to batch_matmul_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/conv_groupwise_dnnlowp_op_test.py to conv_groupwise_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/elementwise_linear_dnnlowp_op_test.py to elementwise_linear_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/server/group_norm_dnnlowp_op_test.py to group_norm_dnnlowp_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/quantization/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/caffe2_pb2.py to caffe2_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/prof_dag_pb2.py to prof_dag_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/predictor_consts_pb2.py to predictor_consts_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/hsm_pb2.py to hsm_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/metanet_pb2.py to metanet_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/caffe2_legacy_pb2.py to caffe2_legacy_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/proto/torch_pb2.py to torch_pb2.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/core/nomnigraph/op_gen.py to op_gen.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/core/nomnigraph/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/core/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/convnet_benchmarks.py to convnet_benchmarks.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/funhash_op_test.py to funhash_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/tt_contraction_op_test.py to tt_contraction_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/tt_pad_op_test.py to tt_pad_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/device_reduce_sum_bench.py to device_reduce_sum_bench.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/__init__.py to __init__.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/sparse_funhash_op_test.py to sparse_funhash_op_test.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/net_construct_bench.py to net_construct_bench.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/SparseTransformer.py to SparseTransformer.cpython-36.pyc
+#16 231.6 byte-compiling /opt/conda/lib/python3.6/site-packages/caffe2/experiments/python/sparse_reshape_op_test.py to sparse_reshape_op_test.cpython-36.pyc
+#16 231.6 running install_egg_info
+#16 231.6 running egg_info
+#16 231.6 writing torch.egg-info/PKG-INFO
+#16 231.6 writing dependency_links to torch.egg-info/dependency_links.txt
+#16 231.6 writing entry points to torch.egg-info/entry_points.txt
+#16 231.6 writing top-level names to torch.egg-info/top_level.txt
+#16 231.6 reading manifest file 'torch.egg-info/SOURCES.txt'
+#16 231.6 adding license file 'LICENSE'
+#16 231.6 adding license file 'NOTICE'
+#16 231.6 writing manifest file 'torch.egg-info/SOURCES.txt'
+#16 231.6 Copying torch.egg-info to /opt/conda/lib/python3.6/site-packages/torch-1.3.0a0+50c90a2-py3.6.egg-info
+#16 231.6 running install_scripts
+#16 231.7 Installing convert-caffe2-to-onnx script to /opt/conda/bin
+#16 231.7 Installing convert-onnx-to-caffe2 script to /opt/conda/bin
+#16 DONE 253.8s
+
+#17 [14/14] WORKDIR /workspace
+#17 DONE 0.8s
+
+#18 exporting to image
+#18 exporting layers
+#18 exporting layers 22.5s done
+#18 writing image sha256:0fea9a5f381a336b613af5303f214b4e9f37543cfaf6f6204776547ff11614fb 0.0s done
+#18 naming to docker.io/library/pipeswitch:mps 0.1s done
+#18 DONE 22.8s
+Complete creating docker image: pipeswitch:mps
+
+whitebox> Complete building docker image for MPS
+Complete building docker image for MPS to servers
+
+Warm up servers
+/home/eamon/baizh1994Modified/scripts/config/servers.txt
+whitebox> Warm up the server
+3e2c51f27772864dc1d5c31573e1dc3fd3556dc75aa9b11190b938e7351c2adc
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+Downloading: "https://github.com/pytorch/vision/archive/refs/tags/v0.4.2.zip" to /root/.cache/torch/hub/refs/tags/v0.4.2.zip
+Traceback (most recent call last):
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 31, in <module>
+    main()
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 22, in main
+    warm_up_training()
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 10, in warm_up_training
+    func(model, data_loader)
+  File "/workspace/PipeSwitch/task/resnet152_training.py", line 40, in train
+    output = model(images_cuda)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/root/.cache/torch/hub/pytorch_vision_refs/tags/v0.4.2/torchvision/models/resnet.py", line 197, in forward
+    x = self.bn1(x)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/batchnorm.py", line 81, in forward
+    exponential_average_factor, self.eps)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/functional.py", line 1670, in batch_norm
+    training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED
+pipeswitch-dev
+whitebox> Complete warming up the server
+Complete warming up servers
+
+Plot 
+Traceback (most recent call last):
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure5/host_run_figure.py", line 183, in <module>
+    main()
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure5/host_run_figure.py", line 178, in main
+    plot_figure(data)
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure5/host_run_figure.py", line 165, in plot_figure
+    plt.savefig(file_name, format="pdf")
+  File "/usr/lib/python3/dist-packages/matplotlib/pyplot.py", line 959, in savefig
+    res = fig.savefig(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/matplotlib/figure.py", line 3285, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "/usr/lib/python3/dist-packages/matplotlib/backend_bases.py", line 2338, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/matplotlib/backend_bases.py", line 2204, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "/usr/lib/python3/dist-packages/matplotlib/backends/backend_pdf.py", line 2808, in print_pdf
+    file = PdfFile(filename, metadata=metadata)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/matplotlib/backends/backend_pdf.py", line 713, in __init__
+    fh, opened = cbook.to_filehandle(filename, "wb", return_opened=True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/matplotlib/cbook/__init__.py", line 492, in to_filehandle
+    fh = open(fname, flag, encoding=encoding)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'output/figure5.pdf'
+Complete ploting 
+
+Plot 
+Plot figure 6: ready_model, 1s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+339e9c2520dbab35b0c01e236a2c9f885e7b5f41e60f927b95def69520bdf737
+pipeswitch-figure6_ready_model_1s
+
+Plot figure 6: ready_model, 2s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+5af0254da72a3badde4e5c95121009fb7d6fd2cba5f0f9a70cfe7cf2ce81f215
+pipeswitch-figure6_ready_model_2s
+
+Plot figure 6: ready_model, 5s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+3fcdc8314f809643d0450e7f86b3bb55c184e0fee44a6aa177368b2b57ca3d63
+pipeswitch-figure6_ready_model_5s
+
+Plot figure 6: ready_model, 10s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+5641a1edcf35f2f0417ec521b5372dd50aa71f2a64abcc4ceed6de64fa34c3b2
+pipeswitch-figure6_ready_model_10s
+
+Plot figure 6: ready_model, 30s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+f2b04386a24b19d41f7aead612645f39c0f90cd9ad45a9ba6f01f3fcf3da5864
+pipeswitch-figure6_ready_model_30s
+
+Plot figure 6: pipeswitch, 1s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+eb7a924ad18718aa094a4a998509d2aa38f6333746e9bc8e2b891877e9f70b76
+pipeswitch-figure6_pipeswitch_1s
+
+Plot figure 6: pipeswitch, 2s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+09f0ac5381d64f1c3c2a7b51fe6d65f098018df82af90032bd2d5efd68541866
+pipeswitch-figure6_pipeswitch_2s
+
+Plot figure 6: pipeswitch, 5s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+b7a49a13d848e24d04ff469534ef6ed0f23e8e9ad35e4f0111f756a9a3c4edc7
+pipeswitch-figure6_pipeswitch_5s
+
+Plot figure 6: pipeswitch, 10s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+b7e848892f0d07d8d2689dd1454fb82d5cbf39de9127da3ba830115e341fcc2b
+pipeswitch-figure6_pipeswitch_10s
+
+Plot figure 6: pipeswitch, 30s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+d487ce5cf5406977338de3788f985f071f915faef1faa913a77a5fab6e47c691
+pipeswitch-figure6_pipeswitch_30s
+
+Plot figure 6: mps, 1s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+2378eabed4c0874edb058d3ca0731e1867ca242114847adaeda5a9dd26a8265d
+pipeswitch-figure6_mps_1s
+
+Plot figure 6: mps, 2s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+89a43a3aed9c9211fcb1d192d8a9af3e22cb2f463c3f760edeb8bfb9b837a65c
+pipeswitch-figure6_mps_2s
+
+Plot figure 6: mps, 5s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+75502f8fddf233cf4471c5a6ee4dabc7303b80125bf8ba2b03568223e105f2e2
+pipeswitch-figure6_mps_5s
+
+Plot figure 6: mps, 10s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+4d30c528400d138b6eeb7486a0d8c25886ca0335ffadefc7a4b32c577db787fc
+pipeswitch-figure6_mps_10s
+
+Plot figure 6: mps, 30s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+0cbfafc1f005fd734e32a15ac94fc78b6916d564623aa9535afb7779af121082
+pipeswitch-figure6_mps_30s
+
+Plot figure 6: kill_restart, 1s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+c371504a1b8888c64c49278b556d923ec051f01bce9031342f6e6a0766e0fabb
+pipeswitch-figure6_kill_restart_1s
+
+Plot figure 6: kill_restart, 2s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+0963d3abdfa7704af3a460fc408d9470c09bc52b4dc1212c6149ad4d32505749
+pipeswitch-figure6_kill_restart_2s
+
+Plot figure 6: kill_restart, 5s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+ab031ae1c2f96de9607052a7382fea0037f14608f4a97c040ac2d97380d6ab04
+pipeswitch-figure6_kill_restart_5s
+
+Plot figure 6: kill_restart, 10s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+fddaf588af00940a2ab4799c80a6c0eb93aba59f94762eb6239699d8171249c1
+pipeswitch-figure6_kill_restart_10s
+
+Plot figure 6: kill_restart, 30s
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+d82fab9feda733796b13537a50c1afcf7a7a53ea30640154354f40831cd7282f
+pipeswitch-figure6_kill_restart_30s
+
+{'ready_model': {}, 'pipeswitch': {}, 'mps': {}, 'kill_restart': {}}
+Traceback (most recent call last):
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure6/host_run_figure.py", line 253, in <module>
+    main()
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure6/host_run_figure.py", line 239, in main
+    data_throughput = process_data_throughput(data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure6/host_run_figure.py", line 60, in process_data_throughput
+    ret[-1].append(data[system][interval][0])
+                   ~~~~~~~~~~~~^^^^^^^^^^
+KeyError: '1s'
+Complete ploting 
+
+Plot 
+Plot figure 7: pipeswitch, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+3e44d120e7d7b1f3a01a0ccaf19b758db3ee1d6ba448355fe7c506143d0efeb4
+pipeswitch-figure7_pipeswitch_resnet152
+
+Plot figure 7: pipeswitch, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+b664d73f6def1739ac853b8895bfd066d0aedb6c6a0501a6a103651e8f673a85
+pipeswitch-figure7_pipeswitch_inception_v3
+
+Plot figure 7: pipeswitch, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+bc7128a62f963599961e8a8e3c7edefc17f2a8f41a5967fc4c433dccbf87c1ca
+pipeswitch-figure7_pipeswitch_bert_base
+
+Plot figure 7: per_layer, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+c938d6439d0dee7e9faf33dc2125028912b91b16a17000989c5f4d5f1346b2b3
+pipeswitch-figure7_per_layer_resnet152
+
+Plot figure 7: per_layer, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+e0ffae4a6ba5e766480f566b01b8afd8e42d9b91faeeec4d2dc23391f10f6c5b
+pipeswitch-figure7_per_layer_inception_v3
+
+Plot figure 7: per_layer, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+9d1def414df71f6659ae519db4650e7d8cae7926f8eba6137bcfc580d900e80b
+pipeswitch-figure7_per_layer_bert_base
+
+Plot figure 7: grouped, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+9f4c8d41868b9faba70d495c80b88be5bceead593e8c5a6264cdcf2d6f3c2c83
+pipeswitch-figure7_grouped_resnet152
+
+Plot figure 7: grouped, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+9e674585ad16ba2291df997f0cf71b8696ae95bd56543fcbf6f36f1f346f67be
+pipeswitch-figure7_grouped_inception_v3
+
+Plot figure 7: grouped, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+4671bc1535bda6adb7f2289ed135749bae1b1dd74154afbf683e4444c8d2c7d2
+pipeswitch-figure7_grouped_bert_base
+
+Plot figure 7: per_layer_no_pipeline, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+a81ac66e815f1ec96937cbecd43e204fed32049e598cb60d0b6e58b03a566ced
+pipeswitch-figure7_per_layer_no_pipeline_resnet152
+
+Plot figure 7: per_layer_no_pipeline, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+d1f61b455e417abe250be295267c04b589640ab8b2848358e25bab2744e69671
+pipeswitch-figure7_per_layer_no_pipeline_inception_v3
+
+Plot figure 7: per_layer_no_pipeline, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+2964ca7e6808f271a0b352145a886fd77799cf108ea74e7994400d1742a8aaa6
+pipeswitch-figure7_per_layer_no_pipeline_bert_base
+
+{'pipeswitch': {}, 'per_layer': {}, 'grouped': {}, 'per_layer_no_pipeline': {}}
+Traceback (most recent call last):
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure7/host_run_figure.py", line 134, in <module>
+    main()
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure7/host_run_figure.py", line 127, in main
+    data = process_data(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure7/host_run_figure.py", line 55, in process_data
+    data['pipeswitch']['resnet152'], 
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'resnet152'
+Complete ploting 
+
+Plot 
+Plot figure 8: pipeswitch, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: pipeswitch, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: pipeswitch, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_memory_management, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_memory_management, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_memory_management, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_ipc_optimization, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_ipc_optimization, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_ipc_optimization, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_pin, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_pin, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: no_pin, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: unified_memory, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: unified_memory, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 8: unified_memory, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+{'pipeswitch': {}, 'no_memory_management': {}, 'no_ipc_optimization': {}, 'no_pin': {}, 'unified_memory': {}}
+Traceback (most recent call last):
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure8/host_run_figure.py", line 159, in <module>
+    main()
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure8/host_run_figure.py", line 153, in main
+    data = process_data(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure8/host_run_figure.py", line 56, in process_data
+    data['pipeswitch']['resnet152'], 
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'resnet152'
+Complete ploting 
+
+Plot 
+Plot figure 9: pipeswitch, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: pipeswitch, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: pipeswitch, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: stop_next, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: stop_next, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: stop_next, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: kill_restart, resnet152
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: kill_restart, inception_v3
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+Plot figure 9: kill_restart, bert_base
+fatal: destination path 'PipeSwitch' already exists and is not an empty directory.
+python: can't open file 'PipeSwitch/scripts/run_data.py': [Errno 2] No such file or directory
+{'pipeswitch': {}, 'stop_next': {}, 'kill_restart': {}}
+Traceback (most recent call last):
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure9/host_run_figure.py", line 161, in <module>
+    main()
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure9/host_run_figure.py", line 153, in main
+    data = process_data(data)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/eamon/baizh1994Modified/scripts/figures/figure9/host_run_figure.py", line 52, in process_data
+    data['pipeswitch']['resnet152'], 
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyError: 'resnet152'
