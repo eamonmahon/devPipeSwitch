@@ -2,24 +2,33 @@ import os
 
 class RunRemoteRepo:
     def __init__(self, server, branch):
+        print("rrr initialised")
         self.server = server
         self.branch = branch
 
     def __enter__(self):
+        print("starting enter")
         os.system("ssh %s 'git clone --quiet --branch %s https://github.com/eamonmahon/PipeSwitch.git'" % (self.server['id'], self.branch))
         return self
 
     def __exit__(self, *args, **kwargs):
+        print("starting exit")
         os.system("ssh %s 'rm -rf ~/PipeSwitch'" % self.server['id'])
 
     def run(self, cmd):
+        print("starting run")
+        print("server: " + self.server['id'])
+        print("command: " + cmd)
+        # equivalent to "ssh whitebox 'bash ~/PipeSwitch/scripts/environment/server_run_warmup.sh'""
         os.system("ssh %s '%s'" % (self.server['id'], cmd))
+        print("after run")
 
 class RunDocker:
     def __init__(self, image, branch):
         self.image = image
         self.name = 'pipeswitch-%s' % branch
         self.branch = branch
+        print("Initialising RunDockker\nimage: " + self.image + "\nname: " + self.name + "\nbranch: " + self.branch)
 
     def __enter__(self):
         os.system('docker run --name %s --rm -it -d --gpus all -w /workspace %s bash' % (self.name, self.image))

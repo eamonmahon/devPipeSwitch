@@ -11,8 +11,12 @@ def main():
 
     for server in server_list:
         print ('%s> Warm up the server' % server['id'])
+        print("Running: RunRemoteRepo(server, dev) as rd:")
         with RunRemoteRepo(server, 'dev') as rrr:
+            print("Running ~/PipeSwitch/scripts/environment/server_run_warmup.sh")
+            # issue happens right here
             rrr.run("bash ~/PipeSwitch/scripts/environment/server_run_warmup.sh")
+            print("Just attempted to run ~/PipeSwitch/scripts/environment/server_run_warmup.sh")
         print ('%s> Complete warming up the server' % server['id'])
 
 if __name__ == '__main__':
