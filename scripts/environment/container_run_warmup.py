@@ -5,18 +5,28 @@ import torch
 
 def warm_up_training():
     # Warm up training
+    print("WUT")
+    print("loading data")
     data_loader = import_data_loader()
+    print("importing model")
     model = import_model().cuda()
+    print("importing function")
     func = import_func()
+    print("calling function")
     func(model, data_loader)
 
 def warm_up_inference(model_name):
     # Warm up training
+    print ("WUI")
+    print("get data")
     data = get_data(model_name, 8)
+    print("get model and function")
     model, func = get_model(model_name)
-
+    print("set model with model.cuda()")
     model = model.cuda()
+    print("set data")
     data_b = data.numpy().tobytes()
+    print("call func")
     func(model, data_b)
 
 def main():

@@ -28,7 +28,7 @@ class RunDocker:
         self.image = image
         self.name = 'pipeswitch-%s' % branch
         self.branch = branch
-        print("Initialising RunDockker\nimage: " + self.image + "\nname: " + self.name + "\nbranch: " + self.branch)
+        print("Initialising RunDocker\nimage: " + self.image + "\nname: " + self.name + "\nbranch: " + self.branch)
 
     def __enter__(self):
         os.system('docker run --name %s --rm -it -d --gpus all -w /workspace %s bash' % (self.name, self.image))
@@ -39,6 +39,7 @@ class RunDocker:
         os.system('docker stop %s' % self.name)
 
     def run(self, cmd):
+        print("Running docker with command: " + cmd)
         os.system('docker exec -w /workspace %s %s' % (self.name, cmd))
 
 def import_server_list(path):

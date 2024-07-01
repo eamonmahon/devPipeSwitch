@@ -1,0 +1,50 @@
+Warm up servers
+/home/eamon/baizh1994Modified/scripts/config/servers.txt
+whitebox> Warm up the server
+Running: RunRemoteRepo(server, dev) as rd:
+rrr initialised
+starting enter
+Running ~/PipeSwitch/scripts/environment/server_run_warmup.sh
+starting run
+server: whitebox
+command: bash ~/PipeSwitch/scripts/environment/server_run_warmup.sh
+error check1
+error check2
+0dbfa5f4c9fd6484a02a543bcf123164c0483b079fcd79500c1924984394f87b
+Downloading: "https://github.com/pytorch/vision/archive/refs/tags/v0.4.2.zip" to /root/.cache/torch/hub/refs/tags/v0.4.2.zip
+Traceback (most recent call last):
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 31, in <module>
+    main()
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 22, in main
+    warm_up_training()
+  File "PipeSwitch/scripts/environment/container_run_warmup.py", line 10, in warm_up_training
+    func(model, data_loader)
+  File "/workspace/PipeSwitch/task/resnet152_training.py", line 40, in train
+    output = model(images_cuda)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/root/.cache/torch/hub/pytorch_vision_refs/tags/v0.4.2/torchvision/models/resnet.py", line 197, in forward
+    x = self.bn1(x)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/module.py", line 541, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/modules/batchnorm.py", line 81, in forward
+    exponential_average_factor, self.eps)
+  File "/opt/conda/lib/python3.6/site-packages/torch/nn/functional.py", line 1670, in batch_norm
+    training, momentum, eps, torch.backends.cudnn.enabled
+RuntimeError: cuDNN error: CUDNN_STATUS_EXECUTION_FAILED
+pipeswitch-dev
+hello
+From server_run_warmup.py...
+Running: RunDocker('pipeswitch:ready_model', dev) as rd:
+Initialising RunDockker
+image: pipeswitch:ready_model
+name: pipeswitch-dev
+branch: dev
+issue check
+no issue
+error check3
+after run
+Just attempted to run ~/PipeSwitch/scripts/environment/server_run_warmup.sh
+starting exit
+whitebox> Complete warming up the server
+Complete warming up servers
