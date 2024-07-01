@@ -20,7 +20,7 @@ def import_func():
     def train(model, data_loader):
         # Prepare data
         #batch_size = 32
-        batch_size = 8
+        batch_size = 4
         images, target = data_loader(batch_size)
 
         # Prepare training
@@ -37,6 +37,7 @@ def import_func():
             target_cuda = target.cuda(non_blocking=True)
 
             # compute output
+            print("setting output")
             output = model(images_cuda)
             loss = criterion(output, target_cuda)
 
