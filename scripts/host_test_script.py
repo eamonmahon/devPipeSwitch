@@ -11,7 +11,7 @@ def main():
 
     for server in server_list:
         with RunRemoteRepo(server, 'dev') as rrr:
-            rrr.run("bash ~/PipeSwitch/scripts/environment/server_test_script.sh")
+            rrr.run("bash ~/PipeSwitch/scripts/server_test_script.sh")
 
 if __name__ == '__main__':
     main()
