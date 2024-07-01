@@ -34,7 +34,7 @@ def main():
 
     # Warmup inference
     # for model_name in ['resnet152', 'inception_v3', 'bert_base']:
-    for model_name in ['inception_v3']:
+    for model_name in ['resnet152']:
         warm_up_inference(model_name)
     
 
