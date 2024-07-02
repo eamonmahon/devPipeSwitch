@@ -39,6 +39,7 @@ def import_func():
             # compute output
             print("setting output")
             output = model(images_cuda)
+            print("setting loss")
             loss = criterion(output, target_cuda)
 
             # compute gradient and do SGD step
