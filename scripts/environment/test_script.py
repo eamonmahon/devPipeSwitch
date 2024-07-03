@@ -1,8 +1,15 @@
 import torch
 import torch.nn as nn
 
-print(torch.version.cuda)
-print(torch.backends.cudnn.version())
+print("CUDA Available:", torch.cuda.is_available())
+print("CUDA Version:", torch.version.cuda)
+print("cuDNN Version:", torch.backends.cudnn.version())
+
+# Create a simple tensor and move it to GPU
+x = torch.randn(10, 10)
+if torch.cuda.is_available():
+    x = x.cuda()
+    print("Tensor on CUDA:", x.device)
 
 # Create a simple model with only a convolutional layer
 model = nn.Sequential(
