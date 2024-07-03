@@ -15,6 +15,8 @@ ENV PYTHONPATH=/workspace/PipeSwitch
 WORKDIR /workspace/PipeSwitch
 RUN python scripts/environment/container_download_models.py
 
+RUN python --version
+
 WORKDIR /workspace
 RUN rm -rf PipeSwitch
 
