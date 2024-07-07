@@ -1,7 +1,8 @@
 from task.helper import get_data, get_model
 
 def main():
-    for model_name in ['resnet152', 'inception_v3', 'bert_base']:
+    # for model_name in ['resnet152', 'inception_v3', 'bert_base']:
+    for model_name in ['resnet152']:
         get_model(model_name)
 
 if __name__ == '__main__':
