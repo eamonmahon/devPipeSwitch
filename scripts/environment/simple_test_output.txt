@@ -1,0 +1,8 @@
+CUDA Available: True
+CUDA Version: 10.1.243
+cuDNN Version: 7603
+Tensor on CUDA: cuda:0
+running on cpu
+Output on CPU: torch.Size([10, 5])
+Using CUDA
+Output on GPU: torch.Size([10, 5])
