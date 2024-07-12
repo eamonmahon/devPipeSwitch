@@ -5,27 +5,30 @@ print("CUDA Available:", torch.cuda.is_available())
 print("CUDA Version:", torch.version.cuda)
 print("cuDNN Version:", torch.backends.cudnn.version())
 
+# Enable cuDNN benchmarking for potential performance improvements
+torch.backends.cudnn.benchmark = True
+
 # Create a simple tensor and move it to GPU
 x = torch.randn(10, 10)
 if torch.cuda.is_available():
     x = x.cuda()
     print("Tensor on CUDA:", x.device)
 
-# Create a simpler model with only a fully connected layer
-class SimpleModel(nn.Module):
+# Create a simple model with a convolutional layer
+class SimpleConvModel(nn.Module):
     def __init__(self):
-        super(SimpleModel, self).__init__()
-        self.fc = nn.Linear(10, 5)  # A single fully connected layer
+        super(SimpleConvModel, self).__init__()
+        self.conv = nn.Conv2d(3, 10, kernel_size=3, padding=1)
 
     def forward(self, x):
-        return self.fc(x)
+        return self.conv(x)
 
-model = SimpleModel()
+model = SimpleConvModel()
 
-# Dummy input for the fully connected layer
-x = torch.randn(10, 10)  # Batch size of 10, input features of 10
+# Dummy input with correct dimensions [batch_size, channels, height, width]
+x = torch.randn(1, 3, 24, 24)
 
-print("running on cpu")
+print("Running on CPU")
 # Force everything to run on CPU to see if the issue is with CUDA/cuDNN
 model.cpu()
 x = x.cpu()
