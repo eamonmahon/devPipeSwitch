@@ -1,5 +1,10 @@
+import os
 import torch
 import torch.nn as nn
+
+# Set environment variables for cuDNN debugging
+os.environ['CUDNN_LOGINFO_DBG'] = '1'
+os.environ['CUDNN_LOGDEST_DBG'] = 'stdout'
 
 # Function to print system and tensor information
 def print_system_info():
@@ -55,7 +60,8 @@ def test_convolutional():
     class SimpleConvModel(nn.Module):
         def __init__(self):
             super(SimpleConvModel, self).__init__()
-            self.conv = nn.Conv2d(3, 10, kernel_size=3, padding=1)
+            # Experiment with different kernel sizes, padding, and stride
+            self.conv = nn.Conv2d(3, 10, kernel_size=1, padding=0, stride=1)
 
         def forward(self, x):
             return self.conv(x)
