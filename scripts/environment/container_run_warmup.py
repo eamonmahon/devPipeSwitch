@@ -33,10 +33,7 @@ def main():
     warm_up_training()
 
     # Warmup inference
-    # for model_name in ['resnet152', 'inception_v3', 'bert_base']:
-    # for model_name in ['resnet152']:
-    print("warm up training for just bert_base")
-    for model_name in ['bert_base']:
+    for model_name in ['resnet152', 'inception_v3', 'bert_base']:
         warm_up_inference(model_name)
     
 
