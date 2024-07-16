@@ -36,7 +36,7 @@ def import_data(batch_size):
     return images, target
 
 def import_model():
-    model = torch.hub.load('pytorch/vision:refs/tags/v0.4.2', MODEL_NAME, pretrained=True, force_reload=True)
+    model = torch.hub.load('pytorch/vision:refs/tags/v0.4.1', MODEL_NAME, pretrained=True, force_reload=True)
     util.set_fullname(model, MODEL_NAME)
 
     return model

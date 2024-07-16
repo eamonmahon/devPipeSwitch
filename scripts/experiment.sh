@@ -1,28 +1,28 @@
-# ##############################
-# ### Create the environment ###
+##############################
+### Create the environment ###
 
-# # # Build basic Docker image on host
+# # Build basic Docker image on host
 # bash scripts/environment/host_build_docker_image_base.sh
 
-# # # Export basic Docker image on host
+# # Export basic Docker image on host
 # bash scripts/environment/host_export_docker_image_base.sh
 
-# # Copy basic Docker image to servers
+# Copy basic Docker image to servers
 # bash scripts/environment/host_push_docker_image_base.sh
 
-# # Load basic Docker image on servers
-# bash scripts/environment/host_build_docker_image_ready_model.sh
-# bash scripts/environment/host_build_docker_image_pipeswitch.sh
-# bash scripts/environment/host_build_docker_image_mps.sh
+# Load basic Docker image on servers
+bash scripts/environment/host_build_docker_image_ready_model.sh
+bash scripts/environment/host_build_docker_image_pipeswitch.sh
+bash scripts/environment/host_build_docker_image_mps.sh
 
 
-# ### Create the environment END ###
-# ##################################
+### Create the environment END ###
+##################################
 
-# ####################
-# ### Plot figures ###
+####################
+### Plot figures ###
 
-# mkdir output
+mkdir output
 
 # Warm up servers
 bash scripts/environment/host_run_warmup.sh
