@@ -27,7 +27,7 @@
 #include <string.h> // PipeSwitch
 #include <arpa/inet.h>  // PipeSwitch
 #define PORT 9001 // PipeSwitch
-#define SIZE_SHARED_CACHE (12 * 1024UL * 1024UL * 1024UL) // PipeSwitch
+#define SIZE_SHARED_CACHE (6 * 1024UL * 1024UL * 1024UL) // Eamon
 
 namespace c10 {
 

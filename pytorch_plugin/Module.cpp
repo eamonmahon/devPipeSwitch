@@ -277,7 +277,7 @@ PyObject * THCPModule_insertSharedCacheForParameter(PyObject *_unused, PyObject 
 PyObject * THCPModule_insertSharedCacheForComputation(PyObject *_unused, PyObject *noargs)
 {
   HANDLE_TH_ERRORS
-      c10::cuda::CUDACachingAllocator::insertSharedCache(11UL * 1024UL * 1024UL * 1024UL, 1UL * 1024UL * 1024UL * 1024UL);
+      c10::cuda::CUDACachingAllocator::insertSharedCache(5UL * 1024UL * 1024UL * 1024UL, 1UL * 1024UL * 1024UL * 1024UL); // Eamon
   END_HANDLE_TH_ERRORS
   Py_RETURN_NONE;
 }
